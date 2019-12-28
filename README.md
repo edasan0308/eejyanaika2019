@@ -14,13 +14,16 @@ API側は https://floating-anchorage-00104.herokuapp.com/ に既にデプロイ�
 //全件取得してくる場合
 Method:GET
 https://floating-anchorage-00104.herokuapp.com/components
+
 //id指定で一件取得してくる場合
 Method:GET
 https://floating-anchorage-00104.herokuapp.com/components/{id}
+
 //ユーザーの位置情報から一番近いトイレ情報を取得してくる場合
 Method:POST
 https://floating-anchorage-00104.herokuapp.com/components/toilet/get
 json{"lat":22.44, "long":33.45}
+
 //ユーザーが新たなコンポーネントを登録する場合
 Method:POST
 https://floating-anchorage-00104.herokuapp.com/components/create
