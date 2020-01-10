@@ -1,5 +1,7 @@
 # eejyanaika2019
 ええじゃないか学生ハッカソンin豊橋で作成したPersonerです。
+FrontはVue.js(JS),BackはLaravel(PHP)で書いています。
+
 `/front/`でnpmが使える状態で
 
 ```
